@@ -98,10 +98,6 @@ function getName() {
     return "Example";
 }
 
-function getAuthor() {
-    return "KrytickYT";
-}
-
 function SPacketResourcePackSend(pBot, packetIn) {
     pBot.player.connection.sendPacket(new net.minecraft.network.play.client.CPacketResourcePackStatus(net.minecraft.network.play.client.CPacketResourcePackStatus.Action.ACCEPTED));
     pBot.player.connection.sendPacket(new net.minecraft.network.play.client.CPacketResourcePackStatus(net.minecraft.network.play.client.CPacketResourcePackStatus.Action.SUCCESSFULLY_LOADED));
