@@ -294,7 +294,7 @@ select {
   print-color-adjust: exact;
 }
 [multiple] {
-  background-image: url(/BosTone/img/back.png);
+  background-image: none;
   background-position: 0 0;
   background-repeat: unset;
   background-size: initial;
