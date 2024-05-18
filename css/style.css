@@ -23,7 +23,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: blue;
   line-height: inherit;
 }
 hr {
@@ -295,7 +294,7 @@ select {
   print-color-adjust: exact;
 }
 [multiple] {
-  background-image: none;
+  background-image: url(/BosTone/img/back.png);
   background-position: 0 0;
   background-repeat: unset;
   background-size: initial;
