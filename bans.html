@@ -86,18 +86,26 @@
 			align-items: center;
 		}
 		
-		.table-left, .table-right {
+		.table-left, table-center .table-right {
 			width: 45%; /* Одинаковая ширина для обоих таблиц */
 			border: 1px solid #ccc;
 			border-collapse: collapse;
 		}
 		
-		.table-left th, .table-left td, .table-right th, .table-right td {
+		.table-left th, .table-left td, .table-center th, .table-center td, .table-right th, .table-right td {
 			border: 1px solid #ccc;
 			padding: 10px;
 		}
 		
 		.table-left th {
+			text-align: center;
+		}
+
+		.table-center th {
+			text-align: center;
+		}
+
+		.table-right th {
 			text-align: center;
 		}
 	</style>
